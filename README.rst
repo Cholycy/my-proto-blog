@@ -8,14 +8,14 @@ Quick start
 -----------
 1. Add "blog" to your INSTALLED_APPS setting like this::
 
-INSTALLED_APPS = [
-    ...
-    'blog',
-]
+    INSTALLED_APPS = [
+        ...
+        'blog',
+    ]
 
 2. Include the blog URLconf in your project urls.py like this::
 
-path('blog/', include('blog.urls')),
+    path('blog/', include('blog.urls')),
 
 3. Run python manage.py migrate to create the blog models.
 
