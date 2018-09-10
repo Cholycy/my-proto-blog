@@ -1,4 +1,5 @@
-# Cholycy
+Cholycy
+--------
 
 Since mercari is a selling app, people like to buy or sell something on it. However, there maybe some stuff that cannot sell after a long time, or some people want to do with something special instead of selling it, we can provide a port to meet the user's need and do something to the social.
 
