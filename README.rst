@@ -5,6 +5,11 @@ Since mercari is a selling app, people like to buy or sell something on it. Howe
 
 "my-proto-blog" is a simple Django app to build a Web-based blog, which aims at calling for people donate their useless stuffs to the people in need. Visitors can view the existing blogs, which about descriptions of donations and stuff lists to the people who are in need. Administrators can edit the exsiting blog and add a new blog.  
 
+Require
+----------
+Python version: 3.7
+Django version: 2.1
+
 Quick start
 -----------
 1. Add "blog" to your INSTALLED_APPS setting like this::
