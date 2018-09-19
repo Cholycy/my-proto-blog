@@ -1,10 +1,10 @@
 {% load staticfiles %}
 <html>
     <head>
-        <title>Materials Donation</title>
+        <title>Waste Utilization Helper</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link rel="stylesheet" href="{% static 'css/blog_new.css' %}">
         <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 
     </head>
@@ -13,7 +13,7 @@
         {% if user.is_authenticated %}
             <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
         {% endif %}            
-    <h1><a href="/">Materials Donation</a></h1>
+    <h1><a href="/">Waste Utilization Helper</a></h1>
         </div>
 
     <div class="content container">
@@ -24,5 +24,5 @@
             </div>
         </div>
     </div>
-    </body>
+</body>
 </html>
