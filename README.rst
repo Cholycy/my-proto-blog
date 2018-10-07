@@ -6,6 +6,7 @@ Cholycy
 Require
 ----------
 Python version: 3.7
+
 Django version: 2.1
 
 Quick start
